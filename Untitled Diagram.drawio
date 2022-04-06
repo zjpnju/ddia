@@ -1,9 +1,189 @@
-<mxfile host="app.diagrams.net" modified="2022-04-03T13:34:54.216Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" etag="MQnW6ONkqGelGsbbCmpS" version="17.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-06T03:11:55.964Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36 Edg/100.0.1185.29" etag="anHI3R963IWo2JlLvIvL" version="17.4.0" type="github">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
     <mxGraphModel dx="1038" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-6" value="HDFS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="190" width="100" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#808080;" vertex="1" parent="dJWWf9umhbd3Ho-xofpC-6">
+          <mxGeometry x="45" y="90" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="dJWWf9umhbd3Ho-xofpC-6">
+          <mxGeometry x="45" y="190" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-24" value="目录创建成功l" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="dJWWf9umhbd3Ho-xofpC-23" parent="dJWWf9umhbd3Ho-xofpC-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="180" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="75" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-39" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="dJWWf9umhbd3Ho-xofpC-6">
+          <mxGeometry x="45" y="410" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-8" value="引擎管理" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="190" width="90" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="dJWWf9umhbd3Ho-xofpC-8">
+          <mxGeometry x="40" y="150" width="10" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="dJWWf9umhbd3Ho-xofpC-8">
+          <mxGeometry x="40" y="110" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-21" value="1、创建大数据&lt;br&gt;平台集群，导入配置&lt;br&gt;导入认证等" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="dJWWf9umhbd3Ho-xofpC-20" parent="dJWWf9umhbd3Ho-xofpC-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="90" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="75" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-22" value="2、创建HDFS资源池" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="dJWWf9umhbd3Ho-xofpC-8">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="70" y="170" as="sourcePoint" />
+            <mxPoint x="150" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-26" value="3、创建Yarn队列" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="dJWWf9umhbd3Ho-xofpC-8" target="dJWWf9umhbd3Ho-xofpC-12">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="70" y="260" as="sourcePoint" />
+            <mxPoint x="150" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-10" value="HIVE" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="190" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-12" value="YARN" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="190" width="100" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="dJWWf9umhbd3Ho-xofpC-12">
+          <mxGeometry x="45" y="170" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-17" value="系统管理员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="280" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#808080;" vertex="1" parent="1">
+          <mxGeometry x="535" y="420" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-27" value="4、创建HiveDB" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="190" y="530" as="sourcePoint" />
+            <mxPoint x="530" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-30" value="Flink引擎" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="190" width="100" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-32" value="Spark引擎" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="190" width="100" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-33" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="dJWWf9umhbd3Ho-xofpC-32">
+          <mxGeometry x="45" y="350" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="dJWWf9umhbd3Ho-xofpC-32">
+          <mxGeometry x="45" y="390" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-35" value="5、创建Air SQL" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="dJWWf9umhbd3Ho-xofpC-34" parent="dJWWf9umhbd3Ho-xofpC-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="370" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="75" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-42" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="dJWWf9umhbd3Ho-xofpC-32">
+          <mxGeometry x="44.5" y="460" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-36" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="415" y="690" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-37" value="5.2、在指定Yarn队列启动Air SQL Server" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;rounded=0;" edge="1" target="dJWWf9umhbd3Ho-xofpC-36" parent="1" source="dJWWf9umhbd3Ho-xofpC-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="669.5" y="690" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-38" value="返回Application ID" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;rounded=0;" edge="1" source="dJWWf9umhbd3Ho-xofpC-36" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="669.5" y="747" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-40" value="5.1、在指定资源池内目录上传依赖包" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;rounded=0;" edge="1" target="dJWWf9umhbd3Ho-xofpC-39" parent="1" source="dJWWf9umhbd3Ho-xofpC-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="600" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-41" value="上传成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;rounded=0;" edge="1" source="dJWWf9umhbd3Ho-xofpC-39" parent="1" target="dJWWf9umhbd3Ho-xofpC-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="657" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#808080;" vertex="1" parent="1">
+          <mxGeometry x="805" y="690" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-43" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="805" y="760" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-44" value="参考Spark Air SQL" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="dJWWf9umhbd3Ho-xofpC-43" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="805" y="740" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="835" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-45" value="租户管理员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="940" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-46" value="Datastudio" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="325" y="860" width="105" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-47" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#808080;" vertex="1" parent="dJWWf9umhbd3Ho-xofpC-46">
+          <mxGeometry x="45" y="90" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-54" value="2、返回该租户被授权的库表资源等&lt;br&gt;返回计算存储引擎列表" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="dJWWf9umhbd3Ho-xofpC-46" source="dJWWf9umhbd3Ho-xofpC-48">
+          <mxGeometry x="0.1182" y="-20" relative="1" as="geometry">
+            <mxPoint x="165" y="130" as="sourcePoint" />
+            <mxPoint x="85" y="130" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-55" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="dJWWf9umhbd3Ho-xofpC-46">
+          <mxGeometry x="45" y="250" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-56" value="3、关联HiveDb、MaxComputer Project&lt;br&gt;关联MPP DB、关联Kafka Topic等" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="dJWWf9umhbd3Ho-xofpC-55" parent="dJWWf9umhbd3Ho-xofpC-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="230" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="75" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-48" value="引擎管理" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="860" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-49" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="dJWWf9umhbd3Ho-xofpC-48">
+          <mxGeometry x="45" y="90" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-52" value="1、创建项目空间" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="270" y="970" as="sourcePoint" />
+            <mxPoint x="350" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-57" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1190" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-58" value="4、选择Spark、Flink 引擎，支持多选" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="dJWWf9umhbd3Ho-xofpC-57" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="1170" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="400" y="1170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
