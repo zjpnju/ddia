@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-06T03:11:55.964Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36 Edg/100.0.1185.29" etag="anHI3R963IWo2JlLvIvL" version="17.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-06T09:06:40.990Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36 Edg/100.0.1185.29" etag="G9KNeL-2vyn_xxjz6Q6v" version="17.4.0" type="github">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
-    <mxGraphModel dx="1038" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1221" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -182,6 +182,134 @@
             <Array as="points">
               <mxPoint x="400" y="1170" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-59" value="开发人员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1440" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-60" value="Spark SQL" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="535" y="1350" width="105" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-61" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#808080;" vertex="1" parent="dJWWf9umhbd3Ho-xofpC-60">
+          <mxGeometry x="45" y="90" width="10" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-76" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="dJWWf9umhbd3Ho-xofpC-60">
+          <mxGeometry x="45" y="290" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-77" value="2.1、获取租户内可访问&lt;br&gt;Hive DB列表" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="dJWWf9umhbd3Ho-xofpC-76" parent="dJWWf9umhbd3Ho-xofpC-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="270" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="75" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-88" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#808080;" vertex="1" parent="dJWWf9umhbd3Ho-xofpC-60">
+          <mxGeometry x="45" y="350" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-62" value="Mpp SQL/Maxcomputer SQL" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1350" width="170" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-63" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="dJWWf9umhbd3Ho-xofpC-62">
+          <mxGeometry x="80" y="80" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-66" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="dJWWf9umhbd3Ho-xofpC-62">
+          <mxGeometry x="80" y="140" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-67" value="1.1、获取租户内可访问的&lt;br&gt;相应数据库类型的DB列表" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="dJWWf9umhbd3Ho-xofpC-66" parent="dJWWf9umhbd3Ho-xofpC-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="120" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="110" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-65" value="1、创建Mpp SQL" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" target="dJWWf9umhbd3Ho-xofpC-62">
+          <mxGeometry y="20" width="80" relative="1" as="geometry">
+            <mxPoint x="210" y="1460" as="sourcePoint" />
+            <mxPoint x="290" y="1460" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-68" value="1.2、选择主DB，然后开发SQL" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" target="dJWWf9umhbd3Ho-xofpC-62">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="210" y="1520" as="sourcePoint" />
+            <mxPoint x="290" y="1520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-71" value="引擎管理" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="880" y="1350" width="100" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-72" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="dJWWf9umhbd3Ho-xofpC-71">
+          <mxGeometry x="45" y="240" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-93" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="dJWWf9umhbd3Ho-xofpC-71">
+          <mxGeometry x="45" y="440" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-73" value="2、创建Spark SQL" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" target="dJWWf9umhbd3Ho-xofpC-60">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="230" y="1610" as="sourcePoint" />
+            <mxPoint x="310" y="1610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="1610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-74" value="Flink SQL" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="715" y="1350" width="95" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-75" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="dJWWf9umhbd3Ho-xofpC-74">
+          <mxGeometry x="42.5" y="440" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-94" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="dJWWf9umhbd3Ho-xofpC-74">
+          <mxGeometry x="42.5" y="580" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-95" value="3.2、获取所有异构数据连接" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="dJWWf9umhbd3Ho-xofpC-94" parent="dJWWf9umhbd3Ho-xofpC-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="42" y="560" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="72" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-78" value="2.2、获取Spark SQL引擎列表" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" target="dJWWf9umhbd3Ho-xofpC-71">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="390" y="1680" as="sourcePoint" />
+            <mxPoint x="470" y="1680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-85" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 11px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;2.3 选择主DB，选择Spark SQL引擎&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1700" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-90" value="" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" target="dJWWf9umhbd3Ho-xofpC-60">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="240" y="1740" as="sourcePoint" />
+            <mxPoint x="320" y="1740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-91" value="3、创建Flink SQL" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="389" y="1831" as="sourcePoint" />
+            <mxPoint x="746" y="1831" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="569" y="1831" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-92" value="3.1、FlinkSQL引擎列表" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.2234" y="-10" width="80" relative="1" as="geometry">
+            <mxPoint x="770" y="1850" as="sourcePoint" />
+            <mxPoint x="909.5" y="1850" as="targetPoint" />
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-96" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;3.3 选择输入输出DB，选择Flink SQL引擎&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1928.82" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dJWWf9umhbd3Ho-xofpC-97" value="" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="400" y="1968.82" as="sourcePoint" />
+            <mxPoint x="747" y="1968.82" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
