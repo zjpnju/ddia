@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-13T05:57:40.014Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="toCSrWvd2rcpwx6Vlaeh" version="17.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-13T06:02:34.640Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="AgZAXtJT2ePCGnQKctV4" version="17.4.3" type="github">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
     <mxGraphModel dx="1426" dy="-324" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -88,22 +88,38 @@
           <mxGeometry x="850" y="2402" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PqrT7txZ_QQFGgLDtHlx-27" value="矢量数据处理" style="swimlane;startSize=20;horizontal=0;childLayout=treeLayout;horizontalTree=1;resizable=0;containerType=tree;" vertex="1" parent="1">
-          <mxGeometry x="1820" y="2342" width="310" height="160" as="geometry" />
+          <mxGeometry x="1840" y="2230" width="310" height="320" as="geometry" />
         </mxCell>
         <mxCell id="PqrT7txZ_QQFGgLDtHlx-28" value="非空间数据&lt;br&gt;空间数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="PqrT7txZ_QQFGgLDtHlx-27">
-          <mxGeometry x="40" y="60" width="100" height="40" as="geometry" />
+          <mxGeometry x="40" y="140" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="PqrT7txZ_QQFGgLDtHlx-29" value="Child 1" style="whiteSpace=wrap;html=1;" vertex="1" parent="PqrT7txZ_QQFGgLDtHlx-27">
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-29" value="信息提取" style="whiteSpace=wrap;html=1;" vertex="1" parent="PqrT7txZ_QQFGgLDtHlx-27">
           <mxGeometry x="190" y="20" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PqrT7txZ_QQFGgLDtHlx-30" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=0;" edge="1" parent="PqrT7txZ_QQFGgLDtHlx-27" source="PqrT7txZ_QQFGgLDtHlx-28" target="PqrT7txZ_QQFGgLDtHlx-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PqrT7txZ_QQFGgLDtHlx-31" value="空间化" style="whiteSpace=wrap;html=1;" vertex="1" parent="PqrT7txZ_QQFGgLDtHlx-27">
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-31" value="数据格式转换" style="whiteSpace=wrap;html=1;" vertex="1" parent="PqrT7txZ_QQFGgLDtHlx-27">
           <mxGeometry x="190" y="100" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PqrT7txZ_QQFGgLDtHlx-32" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=0;" edge="1" parent="PqrT7txZ_QQFGgLDtHlx-27" source="PqrT7txZ_QQFGgLDtHlx-28" target="PqrT7txZ_QQFGgLDtHlx-31">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-61" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=0;" edge="1" target="PqrT7txZ_QQFGgLDtHlx-62" source="PqrT7txZ_QQFGgLDtHlx-28" parent="PqrT7txZ_QQFGgLDtHlx-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2050" y="2302" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-62" value="非空间数据空间化" style="whiteSpace=wrap;html=1;fillColor=#FF6666;" vertex="1" parent="PqrT7txZ_QQFGgLDtHlx-27">
+          <mxGeometry x="190" y="180" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-63" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=0;" edge="1" target="PqrT7txZ_QQFGgLDtHlx-64" source="PqrT7txZ_QQFGgLDtHlx-28" parent="PqrT7txZ_QQFGgLDtHlx-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2050" y="2382" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-64" value="数据格式转换" style="whiteSpace=wrap;html=1;" vertex="1" parent="PqrT7txZ_QQFGgLDtHlx-27">
+          <mxGeometry x="190" y="260" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PqrT7txZ_QQFGgLDtHlx-33" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="2802" width="400" height="60" as="geometry" />
@@ -162,6 +178,24 @@
         </mxCell>
         <mxCell id="PqrT7txZ_QQFGgLDtHlx-52" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;" edge="1" parent="PqrT7txZ_QQFGgLDtHlx-47" source="PqrT7txZ_QQFGgLDtHlx-48" target="PqrT7txZ_QQFGgLDtHlx-51">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-53" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="2125" y="2590" width="260" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-54" value="空间数据库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="2210" y="2625" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-55" value="文件存储/对象存储" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="2197.5" y="2720" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-56" value="数据资源池" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2215" y="2560" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-57" value="优先支持高斯和PG" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2195" y="2680" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-58" value="优先支持obs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2215" y="2780" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
