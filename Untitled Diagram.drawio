@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-13T07:41:06.113Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="i1bLO6QSN_QZWiYf9bN3" version="17.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-13T07:43:16.153Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="ubv4ss1rxyLxIkih9pYc" version="17.4.3" type="github">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
     <mxGraphModel dx="1501" dy="-343" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -311,6 +311,9 @@
         </mxCell>
         <mxCell id="PqrT7txZ_QQFGgLDtHlx-100" value="地图搜索服务" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;fontColor=#000000;" vertex="1" parent="PqrT7txZ_QQFGgLDtHlx-97">
           <mxGeometry y="90" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-106" value="基于资产视角" style="text;html=1;strokeColor=#FFFF99;fillColor=#FF3333;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2950" y="2722" width="85" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
