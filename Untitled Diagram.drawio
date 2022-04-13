@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-13T06:59:10.998Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="bUQxOfSlvSUwQjhLl80v" version="17.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-13T06:59:25.191Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="TWI1DoAW0rryIq2E07ai" version="17.4.3" type="github">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
     <mxGraphModel dx="1240" dy="-425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -300,7 +300,7 @@
         <mxCell id="PqrT7txZ_QQFGgLDtHlx-98" value="矢量数据-----&gt;WFS服务" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;fontColor=#000000;" vertex="1" parent="PqrT7txZ_QQFGgLDtHlx-97">
           <mxGeometry y="30" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PqrT7txZ_QQFGgLDtHlx-99" value="矢量瓦片------&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;fontColor=#000000;" vertex="1" parent="PqrT7txZ_QQFGgLDtHlx-97">
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-99" value="矢量瓦片------&gt;WMTS服务" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;fontColor=#000000;" vertex="1" parent="PqrT7txZ_QQFGgLDtHlx-97">
           <mxGeometry y="60" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PqrT7txZ_QQFGgLDtHlx-100" value="地图搜索服务" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=18;fontColor=#000000;" vertex="1" parent="PqrT7txZ_QQFGgLDtHlx-97">
