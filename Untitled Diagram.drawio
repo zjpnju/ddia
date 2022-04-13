@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-04-13T03:06:24.202Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="2LJe8hc9QPFMjJvzTh0O" version="17.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-13T03:14:57.653Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="nDf18B-2lrp1DKAFa95j" version="17.4.3" type="github">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
     <mxGraphModel dx="1426" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-11" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="760" y="2330" width="260" height="260" as="geometry" />
+        </mxCell>
         <mxCell id="dJWWf9umhbd3Ho-xofpC-6" value="HDFS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="250" y="190" width="100" height="480" as="geometry" />
         </mxCell>
@@ -312,20 +315,54 @@
             <mxPoint x="747" y="1968.82" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PqrT7txZ_QQFGgLDtHlx-2" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="700" y="2250" width="90" height="50" as="geometry" />
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-2" value="空间数据库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="845" y="2365" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="PqrT7txZ_QQFGgLDtHlx-3" value="&lt;h1&gt;基础矢量地图&lt;/h1&gt;&lt;p&gt;数据说明文件&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 数据范围文件&lt;/p&gt;&lt;p&gt;数据字典&lt;/p&gt;&lt;p&gt;元数据文件&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="135" y="2180" width="190" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PqrT7txZ_QQFGgLDtHlx-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="2450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="PqrT7txZ_QQFGgLDtHlx-4" value="&lt;h1&gt;影像数据&lt;/h1&gt;&lt;p&gt;全幅/分幅&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;数据范围文件&lt;/p&gt;&lt;p&gt;数据说明文件&lt;/p&gt;&lt;p&gt;元数据文件&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="130" y="2330" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="PqrT7txZ_QQFGgLDtHlx-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="2500" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="PqrT7txZ_QQFGgLDtHlx-5" value="&lt;h1&gt;三维地形数据&lt;/h1&gt;&lt;p&gt;&amp;nbsp; DOM/DEM&amp;nbsp; &amp;nbsp; &amp;nbsp; 数据范围文件&lt;/p&gt;&lt;p&gt;数据说明文件&lt;/p&gt;&lt;p&gt;元数据文件&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="130" y="2470" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="PqrT7txZ_QQFGgLDtHlx-6" value="&lt;h1&gt;三维倾斜摄影&lt;/h1&gt;&lt;p&gt;&amp;nbsp;测区瓦片/元数据文件&amp;nbsp; &amp;nbsp;LOD&lt;/p&gt;&lt;p&gt;数据说明文件&lt;/p&gt;&lt;p&gt;元数据文件&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="130" y="2610" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-7" value="&lt;h1&gt;应急专题空间数据&lt;/h1&gt;&lt;p&gt;&amp;nbsp;库表，包括业务数据&lt;/p&gt;&lt;p&gt;点以经纬度两个字段表示&lt;/p&gt;&lt;p&gt;线和面使用geometry字段&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="2750" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PqrT7txZ_QQFGgLDtHlx-8" target="PqrT7txZ_QQFGgLDtHlx-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-8" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="2440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-9" value="空间数据汇聚" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="2515" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-12" value="文件存储/对象存储" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="832.5" y="2460" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-13" value="数据资源池" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="850" y="2550" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-14" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;fillColor=#1ba1e2;rounded=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="2440" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-17" value="汇聚元数据库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="832.5" y="2645" width="115" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
