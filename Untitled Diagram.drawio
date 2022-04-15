@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-15T02:03:12.579Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="30B7Ih-rlx4laEvIoYJl" version="17.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-15T02:07:54.259Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="TyeXI5pRpJzEqDYueUR7" version="17.4.3" type="github">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
     <mxGraphModel dx="1783" dy="-130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -315,14 +315,47 @@
         <mxCell id="PqrT7txZ_QQFGgLDtHlx-106" value="基于资产视角" style="text;html=1;strokeColor=#FFFF99;fillColor=#FF3333;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2950" y="2722" width="85" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-125" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="PqrT7txZ_QQFGgLDtHlx-116" target="PqrT7txZ_QQFGgLDtHlx-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="PqrT7txZ_QQFGgLDtHlx-116" target="PqrT7txZ_QQFGgLDtHlx-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="PqrT7txZ_QQFGgLDtHlx-116" value="&lt;h1&gt;结构化&lt;/h1&gt;&lt;p&gt;MYSQL&lt;/p&gt;&lt;p&gt;ORACLE&lt;/p&gt;&lt;p&gt;Kafka 结构化&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="590" y="3280" width="190" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="PqrT7txZ_QQFGgLDtHlx-117" target="PqrT7txZ_QQFGgLDtHlx-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="PqrT7txZ_QQFGgLDtHlx-117" target="PqrT7txZ_QQFGgLDtHlx-123">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PqrT7txZ_QQFGgLDtHlx-117" value="&lt;h1&gt;半结构化&lt;/h1&gt;&lt;p&gt;日志文件&lt;/p&gt;&lt;p&gt;doc文档&lt;/p&gt;&lt;p&gt;Kafka JSON/复杂类型&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="590" y="3470" width="190" height="150" as="geometry" />
         </mxCell>
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="PqrT7txZ_QQFGgLDtHlx-120" target="PqrT7txZ_QQFGgLDtHlx-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="PqrT7txZ_QQFGgLDtHlx-120" value="&lt;h1&gt;非结构化&lt;/h1&gt;&lt;p&gt;视频&lt;/p&gt;&lt;p&gt;图片&lt;/p&gt;&lt;p&gt;空间数据TIF/三维&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="580" y="3670" width="190" height="150" as="geometry" />
+          <mxGeometry x="590" y="3660" width="190" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-121" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;dashed=1;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="960" y="3340" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-122" value="DSC实时接入" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;dashed=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1027.5" y="3290" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-123" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;dashed=1;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="962.5" y="3600" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-124" value="DSC 批次汇聚" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;dashed=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="3550" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-130" value="CDC Reader" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;dashed=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="800" y="3430" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-131" value="Batch Reader" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;dashed=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="810" y="3630" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
