@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-15T02:01:52.659Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="4dV63e8OAKnPM-irnD9Q" version="17.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-15T02:03:12.579Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="30B7Ih-rlx4laEvIoYJl" version="17.4.3" type="github">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
     <mxGraphModel dx="1783" dy="-130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -320,6 +320,9 @@
         </mxCell>
         <mxCell id="PqrT7txZ_QQFGgLDtHlx-117" value="&lt;h1&gt;半结构化&lt;/h1&gt;&lt;p&gt;日志文件&lt;/p&gt;&lt;p&gt;doc文档&lt;/p&gt;&lt;p&gt;Kafka JSON/复杂类型&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="590" y="3470" width="190" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-120" value="&lt;h1&gt;非结构化&lt;/h1&gt;&lt;p&gt;视频&lt;/p&gt;&lt;p&gt;图片&lt;/p&gt;&lt;p&gt;空间数据TIF/三维&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="580" y="3670" width="190" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
