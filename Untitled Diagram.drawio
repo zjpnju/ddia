@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-15T02:20:58.210Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="Tlt-z3B2P0xLAn99mEPt" version="17.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-15T02:23:35.061Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="b_MpvOKdpmoy7ngD_QTn" version="17.4.3" type="github">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
     <mxGraphModel dx="1783" dy="-130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -375,6 +375,9 @@
         <mxCell id="PqrT7txZ_QQFGgLDtHlx-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="PqrT7txZ_QQFGgLDtHlx-134" target="PqrT7txZ_QQFGgLDtHlx-155">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-165" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;fontColor=#000000;" edge="1" parent="1" source="PqrT7txZ_QQFGgLDtHlx-134" target="PqrT7txZ_QQFGgLDtHlx-163">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="PqrT7txZ_QQFGgLDtHlx-134" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;dashed=1;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1390" y="3460" width="250" height="80" as="geometry" />
         </mxCell>
@@ -459,17 +462,35 @@
         <mxCell id="PqrT7txZ_QQFGgLDtHlx-156" value="日志解析AI引擎" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;dashed=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1795" y="3540" width="100" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-167" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fontColor=#000000;" edge="1" parent="1" source="PqrT7txZ_QQFGgLDtHlx-160" target="PqrT7txZ_QQFGgLDtHlx-166">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-171" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;fontColor=#000000;" edge="1" parent="1" source="PqrT7txZ_QQFGgLDtHlx-160" target="PqrT7txZ_QQFGgLDtHlx-169">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="PqrT7txZ_QQFGgLDtHlx-160" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;dashed=1;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="2090" y="3700" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PqrT7txZ_QQFGgLDtHlx-162" value="EMR 湖仓STD层增量建设" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;dashed=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="2317.5" y="3710" width="100" height="40" as="geometry" />
+          <mxGeometry x="2260" y="3650" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-170" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;fontColor=#000000;" edge="1" parent="1" source="PqrT7txZ_QQFGgLDtHlx-163" target="PqrT7txZ_QQFGgLDtHlx-169">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PqrT7txZ_QQFGgLDtHlx-163" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;dashed=1;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1742.5" y="3840" width="205" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PqrT7txZ_QQFGgLDtHlx-164" value="空间数据处理Spark" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;dashed=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1795" y="3790" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-166" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;fontSize=14;fillColor=#1ba1e2;fontColor=#000000;rounded=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;sketch=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="2490" y="3700" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-169" value="" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=-1;hachureGap=8;fillStyle=cross-hatch;fillColor=#006600;sketch=1;dashed=1;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2195" y="3860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PqrT7txZ_QQFGgLDtHlx-172" value="空间/非空间融合计划" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;dashed=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2203" y="3940" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
