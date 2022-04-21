@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-21T01:11:17.777Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="uX0Tbhoma_8HdvQCj_lg" version="17.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-21T01:13:39.609Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="fveomiGvrc9ETTKSZlR-" version="17.4.5" type="github">
   <diagram id="NXiF5pYvuGFTyCZFgfCX" name="Page-1">
     <mxGraphModel dx="1426" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -516,17 +516,17 @@
             <mxRectangle width="125" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Mq3Qd4NMwjSyaezHSede-172" value="Job状态" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="Mq3Qd4NMwjSyaezHSede-169">
+        <mxCell id="Mq3Qd4NMwjSyaezHSede-172" value="GC" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="Mq3Qd4NMwjSyaezHSede-169">
           <mxGeometry x="251" width="126" height="30" as="geometry">
             <mxRectangle width="126" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Mq3Qd4NMwjSyaezHSede-173" value="Vertex 状态" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="Mq3Qd4NMwjSyaezHSede-169">
+        <mxCell id="Mq3Qd4NMwjSyaezHSede-173" value="cancel checkpoint" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="Mq3Qd4NMwjSyaezHSede-169">
           <mxGeometry x="377" width="126" height="30" as="geometry">
             <mxRectangle width="126" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Mq3Qd4NMwjSyaezHSede-174" value="Task 状态" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="Mq3Qd4NMwjSyaezHSede-169">
+        <mxCell id="Mq3Qd4NMwjSyaezHSede-174" value="failed checkpoint" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="Mq3Qd4NMwjSyaezHSede-169">
           <mxGeometry x="503" width="126" height="30" as="geometry">
             <mxRectangle width="126" height="30" as="alternateBounds" />
           </mxGeometry>
